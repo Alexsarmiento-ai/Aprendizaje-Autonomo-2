@@ -11,7 +11,7 @@ Conteo de partidas: lleva el registro de partidas jugadas y victorias durante la
 Ahorcado en ASCII: el dibujo se actualiza con cada error cometido
   Instalación y uso
 1. Clona el repositorio
-Link: https://github.com/tu-usuario/juego-ahorcado.git
+Link: https://github.com/Alexsarmiento-ai/Aprendizaje-Autonomo-2
 2. Ejecuta el juego
 Python juego_ahorcado.py
 ________________________________________
