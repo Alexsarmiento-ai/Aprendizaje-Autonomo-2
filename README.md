@@ -1,20 +1,22 @@
-# Aprendizaje-Autonomo-2
-Juego-del-ahorcado-.py
-En esta oportunidad he desarrollado el juego del Ahorcado en el lenguaje de Python para la terminal. Utilizando el IDE Visual Studio Code y las herramientas de git y github. 
+Proyecto Integrador
+El impacto de las nuevas tecnologías en la sociedad: desarrollo y proyección de soluciones informáticas 
+Autor: Alexander Sarmiento
+Materia: Lógica de Programación
+Objetivo del sistema
+En esta oportunidad he desarrollado el Juego del Ahorcado desarrollado en Python que corre en la terminal. Donde el jugador elige una categoría de palabras y un nivel de dificultad, luego intenta adivinar la palabra oculta letra por letra antes de quedarse sin intentos. Cuenta con un sistema de pistas limitadas y lleva el registro de partidas y victorias durante la sesión. A medida que avanza el juego se va dibujando el muñeco del ahorcado si el jugador no acierta la letra.
+El proyecto fue desarrollado como práctica de programación aplicando los conceptos básicos de Python: listas, tuplas, condicionales, bucles y funciones.
+
+Descripción de funcionalidades
 A continuación, se presentarán las funcionalidades que va a tener el juego; tales como categoría de palabras, dificultad ajustable, un sistema de pistas y el conteo de partidas y victorias. 
-Cabe destacar que es un avance de lo que será el trabajo final, por lo que el código no está completo todavía. 
+
 Funcionalidades
+
 4 categorías de palabras: Animales, Países, Frutas, Tecnología
 3 niveles de dificultad: fácil, medio y difícil (cambian los intentos y las pistas disponibles)
 Sistema de pistas: cada palabra tiene una pista única, con usos limitados según la dificultad
 Conteo de partidas: lleva el registro de partidas jugadas y victorias durante la sesión
 Ahorcado en ASCII: el dibujo se actualiza con cada error cometido
-  Instalación y uso
-1. Clona el repositorio
-Link: https://github.com/Alexsarmiento-ai/Aprendizaje-Autonomo-2
-2. Ejecuta el juego
-Python juego_ahorcado.py
-________________________________________
+
 ¿Cómo se juega?
 1.	Escribes tu nombre
 2.	Eliges una categoría (Animales, Frutas, Países, Tecnología)
@@ -26,13 +28,33 @@ ________________________________________
 
    Tabla de dificultades
 Dificultad	Intentos	Pistas disponibles
-Fácil	8	3
-Medio	6	2
-Difícil	4	1
+Fácil        8      	3
+Medio        6	      2
+Difícil	     4	      1
 
-Gracias a la realización de este avance del código del Juego del Ahorcado he podido aplicar los fundamentos vistos en clase como condicionales, bucles, listas y las tuplas. Reforzando el conocimiento aprendido y siendo capaz de familiarizarme más con las herramientas que se utilizan en programación. 
+Funcionalidades de Python usadas en el código
 
-    Autor
-Desarrollado por: Alexander Sarmiento
-Materia: Lógica de Programación
-Fecha: 21/06/2026
+Listas — para guardar las letras usadas y la palabra oculta con guiones
+Tuplas — para guardar cada palabra junto a su pista, y la configuración de cada dificultad
+Diccionarios — para organizar las palabras por categoría y dificultad
+if / elif / else — para tomar decisiones (letra correcta, letra repetida, pista, salir)
+while — para repetir el juego mientras queden intentos y el jugador quiera seguir
+for — para recorrer letras, mostrar la palabra oculta y las letras usadas
+
+Instalación y uso
+1. Clona el repositorio
+Link: https://github.com/Alexsarmiento-ai/Aprendizaje-Autonomo-2
+2. Ejecuta el juego
+Python juego_ahorcado.py
+
+Mejoras planeadas a futuro:
+
+ Modo multijugador (un jugador elige la palabra, el otro adivina)
+ Más categorías: deportes, películas, comidas
+ Versión con interfaz gráfica usando Pygame
+
+
+Gracias a la realización de este proyecto integrador he podido aplicar los fundamentos vistos en clase como condicionales, bucles, listas y las tuplas. Reforzando el conocimiento aprendido y siendo capaz de familiarizarme más con las herramientas que se utilizan en programación.
+El poder desarrollar el Juego del Ahorcado me ayudo mucho a poder practicar todo lo que he visto en clase durante este tiempo. Es realmente gratificante ver como el conocimiento adquirido se puede aplicar en lineas de codigo, y que de eso pueda resultar un juego com este, hasta los software mas completos y complejos.
+
+Fecha: 27/06/2026
